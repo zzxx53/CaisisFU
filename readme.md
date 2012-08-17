@@ -18,8 +18,9 @@ After the patient completes the survey, the users can go to the “Collect Surveys
 
 #Installation Guide
 0. Download project files as ZIP and extract all files. 
-1. Install Microsoft SQL server and IIS (express editions are fine). For more details, see relevant information in Caisis Wiki: http://caisis.org/wiki/index.php?title=Installation
-2. Use SQL Server Management Studio to create a new database, and then open the sql files in the “SQL scripts” folder and execute them to create database schema. Note: the order in which these scripts are executed matters. 
-3. Create an application in IIS, and point the “physical path” to “WebApplication2” directory. 
-4. Modify Web.Config file under “WebApplication2” directory. Change "dbConnectionString" to point to the database you just created with correct login information. Modify "SurveyorPath" and "JsonPath" to point to the actual Surveyor server paths. 
-5. Add more patients and surveys to the “patients” and “metadatasurveys” table in the database, as needed.
+1. Expand WebApplication2.zip so that the "WebApplication2" folder inside the archive is on the same level as other files. 
+2. Install Microsoft SQL server and IIS (express editions are fine). For more details, see relevant information in Caisis Wiki: http://caisis.org/wiki/index.php?title=Installation
+3. Use SQL Server Management Studio to create a new database, and then open the sql files in the “SQL scripts” folder and execute them to create database schema. Note: the order in which these scripts are executed matters. 
+4. Create an application in IIS, and point the “physical path” to “WebApplication2” directory. 
+5. Modify Web.Config file under “WebApplication2” directory. Change "dbConnectionString" to point to the database you just created with correct login information. Modify "SurveyorPath" and "JsonPath" to point to the actual Surveyor server paths. 
+6. Add more patients and surveys to the “patients” and “metadatasurveys” table in the database, as needed.

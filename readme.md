@@ -1,6 +1,6 @@
 #Introduction
 
-This web system was developed by Lifan Zhang (lzhan65@emory.edu) in Jul-Aug 2012 as a prototype for data linkage between a separate Patient Data Management System (PDMS) and survey system. For more on motivation of the project, please read “about.htm”. 
+This web system was developed by Lifan Zhang (lzhan65 # emory.edu) in Jul-Aug 2012 as a prototype for data linkage between a separate Patient Data Management System (PDMS) and survey system. For more on motivation of the project, please read “about.htm”. Also, see this video: http://www.youtube.com/watch?v=mzeQV5Jir64 for a screencast demonstration of the website. 
 
 This repository only holds the PDMS side of the program, and it needs both the PDMS and the survey component to work. The survey component can be downloaded at http://github.com/zzxx53/surveyor . It is a customized version of Surveyor (http://github.com/NUBIC/surveyor/).
 
